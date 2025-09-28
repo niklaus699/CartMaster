@@ -11,7 +11,6 @@ const useDesserts = () => {
         }
         return response.json()})
       .then((data) => {
-        console.log(data);
         setDesserts(data);
       })
       .catch((error) => console.error(error));

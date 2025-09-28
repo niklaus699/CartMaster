@@ -1,6 +1,6 @@
 import React from 'react'
-import PlusIcon from "../assets/images/icon-increment-quantity.svg?react";
-import MinusIcon from "../assets/images/icon-decrement-quantity.svg?react";
+import PlusIcon from "../assets/icons/icon-increment-quantity.svg?react";
+import MinusIcon from "../assets/icons/icon-decrement-quantity.svg?react";
 
 
 const Card = ({img, name, category, price, count, id, onPress, onAdd, onRemove}) => {
@@ -26,7 +26,7 @@ const Card = ({img, name, category, price, count, id, onPress, onAdd, onRemove})
               onClick={() => onPress(id)}
             >
               <img
-                src="./assets/images/icon-add-to-cart.svg"
+                src="/images/icon-add-to-cart.svg"
                 alt="add to cart"
               />
               <span>Add to Cart</span>

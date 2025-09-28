@@ -23,7 +23,7 @@ const Cart = ({ counts, desserts, removeFunction, onClearCart }) => {
       </h1>
       {!items.length ? (
         <div className="flex flex-col w-full justify-between items-center">
-          <img src="../src/assets/images/illustration-empty-cart.svg" alt="" />
+          <img src="/images/illustration-empty-cart.svg" alt="" />
           <p className="text-Rose-400">Your added items will appear here</p>
         </div>
       ) : (
@@ -46,7 +46,7 @@ const Cart = ({ counts, desserts, removeFunction, onClearCart }) => {
             </span>
           </div>
           <div className="flex justify-center bg-Rose-100 py-2 rounded-md">
-            <img src="../src/assets/images/icon-carbon-neutral.svg" alt="" />
+            <img src="/images/icon-carbon-neutral.svg" alt="" />
             <span className="font-redhat-regular">
               This is a{" "}
               <span className="font-redhat-semibold">carbon-neutral</span>{" "}

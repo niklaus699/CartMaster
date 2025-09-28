@@ -1,5 +1,5 @@
 import React from 'react'
-import RemoveIcon from "../assets/images/icon-remove-item.svg?react";
+import RemoveIcon from "../assets/icons/icon-remove-item.svg?react";
 
 const CartContents = ({item, count, onRemove}) => {
   return (
