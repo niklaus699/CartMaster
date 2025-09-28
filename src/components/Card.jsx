@@ -26,7 +26,7 @@ const Card = ({img, name, category, price, count, id, onPress, onAdd, onRemove})
               onClick={() => onPress(id)}
             >
               <img
-                src="../src/assets/images/icon-add-to-cart.svg"
+                src="./assets/images/icon-add-to-cart.svg"
                 alt="add to cart"
               />
               <span>Add to Cart</span>
