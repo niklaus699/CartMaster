@@ -46,7 +46,7 @@ const Cart = ({ counts, desserts, removeFunction, onClearCart }) => {
             </span>
           </div>
           <div className="flex justify-center bg-Rose-100 py-2 rounded-md">
-            <img src="/images/icon-carbon-neutral.svg" alt="" />
+            <img src="/public/images/icon-carbon-neutral.svg" alt="" />
             <span className="font-redhat-regular">
               This is a{" "}
               <span className="font-redhat-semibold">carbon-neutral</span>{" "}
