@@ -6,7 +6,7 @@ const OrderConfirmedModal = ({ items, total, startNewOrder, onClearModal }) => {
     <div>
       <Modal onClose={onClearModal}>
         <div>
-          <img src="/public/images/icon-order-confirmed.svg" alt="🎈" />
+          <img src="/images/icon-order-confirmed.svg" alt="🎈" />
           <div className="mb-6">
             <h1 className="font-redhat-bold">Order Confirmed</h1>
             <p className="font-redhat-regular text-gray-500">
