@@ -19,7 +19,7 @@ const OrderConfirmedModal = ({ items, total, startNewOrder, onClearModal }) => {
                 key={item.id}
                 className="flex justify-between items-center border-b-1 border-Rose-300 py-4"
               >
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between gap-2">
                   <img
                     src={item.image.thumbnail}
                     alt={item.name}
